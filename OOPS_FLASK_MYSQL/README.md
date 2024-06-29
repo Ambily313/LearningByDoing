@@ -1,6 +1,6 @@
 # Oops-flask-mysql
 
- This is for beginners, showing how to store and fetch data in a MySQL database using Python, Object-Oriented Programming (OOP) concepts, and Flask. The goal is to provide a hands-on experience that will help you understand the basics on your journey to becoming a data scientist.
+ This is for beginners, showing how to store and fetch data in a MySQL database using Python, Object-Oriented Programming (OOP) concepts, and Flask. The aim is to offer practical experience that aids in grasping fundamental concepts.
 
 ## Description:-  
 
