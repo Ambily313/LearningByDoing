@@ -1,0 +1,167 @@
+2024-06-29 18:38:33,592 DEBUG Initializing database
+2024-06-29 18:38:33,592 DEBUG Establishing database connection
+2024-06-29 18:38:33,641 DEBUG Building SSL context
+2024-06-29 18:38:33,726 DEBUG Switching to SSL
+2024-06-29 18:38:33,747 DEBUG SSL has been enabled
+2024-06-29 18:38:33,747 DEBUG Starting authorization phase
+2024-06-29 18:38:33,747 DEBUG The provided initial strategy is caching_sha2_password
+2024-06-29 18:38:33,750 INFO package: mysql.connector.plugins
+2024-06-29 18:38:33,751 INFO plugin_name: caching_sha2_password
+2024-06-29 18:38:33,751 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2024-06-29 18:38:33,752 DEBUG Exchanging further packets
+2024-06-29 18:38:33,755 DEBUG caching_sha2_password completed succesfully
+2024-06-29 18:38:33,902 DEBUG Database connection established
+2024-06-29 18:38:34,002 DEBUG Database initialized
+2024-06-29 18:38:34,086 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-29 18:38:34,086 INFO [33mPress CTRL+C to quit[0m
+2024-06-29 18:38:34,117 INFO  * Restarting with watchdog (windowsapi)
+2024-06-29 18:38:34,867 DEBUG Initializing database
+2024-06-29 18:38:34,867 DEBUG Establishing database connection
+2024-06-29 18:38:34,911 DEBUG Building SSL context
+2024-06-29 18:38:34,964 DEBUG Switching to SSL
+2024-06-29 18:38:34,977 DEBUG SSL has been enabled
+2024-06-29 18:38:34,978 DEBUG Starting authorization phase
+2024-06-29 18:38:34,981 DEBUG The provided initial strategy is caching_sha2_password
+2024-06-29 18:38:34,981 INFO package: mysql.connector.plugins
+2024-06-29 18:38:34,981 INFO plugin_name: caching_sha2_password
+2024-06-29 18:38:34,981 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2024-06-29 18:38:34,981 DEBUG Exchanging further packets
+2024-06-29 18:38:34,986 DEBUG caching_sha2_password completed succesfully
+2024-06-29 18:38:34,986 DEBUG Database connection established
+2024-06-29 18:38:35,009 DEBUG Database initialized
+2024-06-29 18:38:35,030 WARNING  * Debugger is active!
+2024-06-29 18:38:35,042 INFO  * Debugger PIN: 116-157-129
+2024-06-29 18:38:47,058 INFO  * Detected change in 'C:\\Anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2024-06-29 18:38:47,182 INFO  * Detected change in 'C:\\Anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+2024-06-29 18:38:47,394 INFO  * Restarting with watchdog (windowsapi)
+2024-06-29 18:38:48,300 DEBUG Initializing database
+2024-06-29 18:38:48,300 DEBUG Establishing database connection
+2024-06-29 18:38:48,366 DEBUG Building SSL context
+2024-06-29 18:38:48,427 DEBUG Switching to SSL
+2024-06-29 18:38:48,431 DEBUG SSL has been enabled
+2024-06-29 18:38:48,431 DEBUG Starting authorization phase
+2024-06-29 18:38:48,431 DEBUG The provided initial strategy is caching_sha2_password
+2024-06-29 18:38:48,431 INFO package: mysql.connector.plugins
+2024-06-29 18:38:48,438 INFO plugin_name: caching_sha2_password
+2024-06-29 18:38:48,438 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2024-06-29 18:38:48,438 DEBUG Exchanging further packets
+2024-06-29 18:38:48,438 DEBUG caching_sha2_password completed succesfully
+2024-06-29 18:38:48,438 DEBUG Database connection established
+2024-06-29 18:38:48,452 DEBUG Database initialized
+2024-06-29 18:38:48,482 WARNING  * Debugger is active!
+2024-06-29 18:38:48,482 INFO  * Debugger PIN: 116-157-129
+2024-06-29 18:38:48,529 INFO  * Detected change in 'C:\\Anaconda3\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2024-06-29 18:38:48,551 INFO 127.0.0.1 - - [29/Jun/2024 18:38:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-06-29 18:38:48,738 INFO 127.0.0.1 - - [29/Jun/2024 18:38:48] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-06-29 18:38:48,738 INFO 127.0.0.1 - - [29/Jun/2024 18:38:48] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-06-29 18:38:48,835 INFO 127.0.0.1 - - [29/Jun/2024 18:38:48] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-06-29 18:38:48,945 INFO 127.0.0.1 - - [29/Jun/2024 18:38:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-06-29 18:38:49,944 INFO  * Restarting with watchdog (windowsapi)
+2024-06-29 18:38:50,847 DEBUG Initializing database
+2024-06-29 18:38:50,847 DEBUG Establishing database connection
+2024-06-29 18:38:50,918 DEBUG Building SSL context
+2024-06-29 18:38:50,984 DEBUG Switching to SSL
+2024-06-29 18:38:50,992 DEBUG SSL has been enabled
+2024-06-29 18:38:50,992 DEBUG Starting authorization phase
+2024-06-29 18:38:50,992 DEBUG The provided initial strategy is caching_sha2_password
+2024-06-29 18:38:50,992 INFO package: mysql.connector.plugins
+2024-06-29 18:38:50,992 INFO plugin_name: caching_sha2_password
+2024-06-29 18:38:50,992 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2024-06-29 18:38:50,992 DEBUG Exchanging further packets
+2024-06-29 18:38:50,992 DEBUG caching_sha2_password completed succesfully
+2024-06-29 18:38:50,992 DEBUG Database connection established
+2024-06-29 18:38:51,000 DEBUG Database initialized
+2024-06-29 18:38:51,042 WARNING  * Debugger is active!
+2024-06-29 18:38:51,050 INFO  * Debugger PIN: 116-157-129
+2024-06-29 18:43:16,306 DEBUG Initializing database
+2024-06-29 18:43:16,315 DEBUG Establishing database connection
+2024-06-29 18:43:16,355 DEBUG Building SSL context
+2024-06-29 18:43:16,412 DEBUG Switching to SSL
+2024-06-29 18:43:16,422 DEBUG SSL has been enabled
+2024-06-29 18:43:16,422 DEBUG Starting authorization phase
+2024-06-29 18:43:16,422 DEBUG The provided initial strategy is caching_sha2_password
+2024-06-29 18:43:16,425 INFO package: mysql.connector.plugins
+2024-06-29 18:43:16,426 INFO plugin_name: caching_sha2_password
+2024-06-29 18:43:16,426 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2024-06-29 18:43:16,426 DEBUG Exchanging further packets
+2024-06-29 18:43:16,426 DEBUG caching_sha2_password completed succesfully
+2024-06-29 18:43:16,429 DEBUG Database connection established
+2024-06-29 18:43:16,444 DEBUG Database initialized
+2024-06-29 18:43:16,488 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-29 18:43:16,497 INFO [33mPress CTRL+C to quit[0m
+2024-06-29 18:43:16,525 INFO  * Restarting with watchdog (windowsapi)
+2024-06-29 18:43:17,255 DEBUG Initializing database
+2024-06-29 18:43:17,255 DEBUG Establishing database connection
+2024-06-29 18:43:17,289 DEBUG Building SSL context
+2024-06-29 18:43:17,355 DEBUG Switching to SSL
+2024-06-29 18:43:17,361 DEBUG SSL has been enabled
+2024-06-29 18:43:17,361 DEBUG Starting authorization phase
+2024-06-29 18:43:17,361 DEBUG The provided initial strategy is caching_sha2_password
+2024-06-29 18:43:17,361 INFO package: mysql.connector.plugins
+2024-06-29 18:43:17,368 INFO plugin_name: caching_sha2_password
+2024-06-29 18:43:17,368 INFO AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2024-06-29 18:43:17,368 DEBUG Exchanging further packets
+2024-06-29 18:43:17,368 DEBUG caching_sha2_password completed succesfully
+2024-06-29 18:43:17,372 DEBUG Database connection established
+2024-06-29 18:43:17,376 DEBUG Database initialized
+2024-06-29 18:43:17,410 WARNING  * Debugger is active!
+2024-06-29 18:43:17,414 INFO  * Debugger PIN: 116-157-129
+2024-06-29 18:43:33,245 INFO 127.0.0.1 - - [29/Jun/2024 18:43:33] "GET / HTTP/1.1" 200 -
+2024-06-29 18:43:33,347 INFO 127.0.0.1 - - [29/Jun/2024 18:43:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-29 18:44:01,116 DEBUG Created Student instance: <__main__.Student object at 0x000002037F0DE890>
+2024-06-29 18:44:01,121 DEBUG Saving student Amy to the database
+2024-06-29 18:44:01,121 DEBUG Establishing database connection
+2024-06-29 18:44:01,126 DEBUG Building SSL context
+2024-06-29 18:44:01,201 DEBUG Switching to SSL
+2024-06-29 18:44:01,201 DEBUG SSL has been enabled
+2024-06-29 18:44:01,211 DEBUG Starting authorization phase
+2024-06-29 18:44:01,212 DEBUG The provided initial strategy is caching_sha2_password
+2024-06-29 18:44:01,212 DEBUG Exchanging further packets
+2024-06-29 18:44:01,212 DEBUG caching_sha2_password completed succesfully
+2024-06-29 18:44:01,212 DEBUG Database connection established
+2024-06-29 18:44:01,222 INFO Student Amy saved to database
+2024-06-29 18:44:01,227 DEBUG Database connection closed
+2024-06-29 18:44:01,227 INFO 127.0.0.1 - - [29/Jun/2024 18:44:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-06-29 18:44:01,233 DEBUG Fetching all students from the database
+2024-06-29 18:44:01,233 DEBUG Establishing database connection
+2024-06-29 18:44:01,233 DEBUG Building SSL context
+2024-06-29 18:44:01,286 DEBUG Switching to SSL
+2024-06-29 18:44:01,291 DEBUG SSL has been enabled
+2024-06-29 18:44:01,297 DEBUG Starting authorization phase
+2024-06-29 18:44:01,297 DEBUG The provided initial strategy is caching_sha2_password
+2024-06-29 18:44:01,297 DEBUG Exchanging further packets
+2024-06-29 18:44:01,297 DEBUG caching_sha2_password completed succesfully
+2024-06-29 18:44:01,297 DEBUG Database connection established
+2024-06-29 18:44:01,297 INFO Fetched 1 students from database
+2024-06-29 18:44:01,307 DEBUG Database connection closed
+2024-06-29 18:44:01,329 INFO 127.0.0.1 - - [29/Jun/2024 18:44:01] "GET /users HTTP/1.1" 200 -
+2024-06-29 18:44:07,335 INFO 127.0.0.1 - - [29/Jun/2024 18:44:07] "GET / HTTP/1.1" 200 -
+2024-06-29 18:44:27,872 DEBUG Created Student instance: <__main__.Student object at 0x000002037FDBF090>
+2024-06-29 18:44:27,872 DEBUG Saving student Jia to the database
+2024-06-29 18:44:27,872 DEBUG Establishing database connection
+2024-06-29 18:44:27,878 DEBUG Building SSL context
+2024-06-29 18:44:27,932 DEBUG Switching to SSL
+2024-06-29 18:44:27,932 DEBUG SSL has been enabled
+2024-06-29 18:44:27,932 DEBUG Starting authorization phase
+2024-06-29 18:44:27,942 DEBUG The provided initial strategy is caching_sha2_password
+2024-06-29 18:44:27,942 DEBUG Exchanging further packets
+2024-06-29 18:44:27,942 DEBUG caching_sha2_password completed succesfully
+2024-06-29 18:44:27,947 DEBUG Database connection established
+2024-06-29 18:44:27,953 INFO Student Jia saved to database
+2024-06-29 18:44:27,953 DEBUG Database connection closed
+2024-06-29 18:44:27,953 INFO 127.0.0.1 - - [29/Jun/2024 18:44:27] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-06-29 18:44:27,964 DEBUG Fetching all students from the database
+2024-06-29 18:44:27,964 DEBUG Establishing database connection
+2024-06-29 18:44:27,964 DEBUG Building SSL context
+2024-06-29 18:44:28,022 DEBUG Switching to SSL
+2024-06-29 18:44:28,028 DEBUG SSL has been enabled
+2024-06-29 18:44:28,028 DEBUG Starting authorization phase
+2024-06-29 18:44:28,028 DEBUG The provided initial strategy is caching_sha2_password
+2024-06-29 18:44:28,028 DEBUG Exchanging further packets
+2024-06-29 18:44:28,028 DEBUG caching_sha2_password completed succesfully
+2024-06-29 18:44:28,028 DEBUG Database connection established
+2024-06-29 18:44:28,028 INFO Fetched 2 students from database
+2024-06-29 18:44:28,038 DEBUG Database connection closed
+2024-06-29 18:44:28,038 INFO 127.0.0.1 - - [29/Jun/2024 18:44:28] "GET /users HTTP/1.1" 200 -
