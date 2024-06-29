@@ -9,7 +9,7 @@ This repository is for supporting beginners on their data science journey. It is
 
 ## Contents
 
-- **Project 1:** [OOPS_FLASK_MYSQL](https://github.com/Ambily313/LearningByDoing/tree/main/OOPS_FLASK_MYSQL))
+- **Project 1:** [OOPS_FLASK_MYSQL](https://github.com/Ambily313/LearningByDoing/tree/main/OOPS_FLASK_MYSQL)
   - This project is intended to teach how to store and retrieve data in a MySQL database using Python, Object-Oriented Programming (OOP) principles, and Flask.
 
 
