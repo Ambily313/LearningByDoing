@@ -14,7 +14,7 @@ This repository is for supporting beginners on their data science journey. It is
 
 
 - **Project 2:** [EDA](https://github.com/Ambily313/LearningByDoing/tree/main/EDA)
- - This  aims to explore and analyze data sets using Python, leveraging statistical methods, visualization techniques, and pandas library functionalities..
+  - This  aims to explore and analyze data sets using Python, leveraging statistical methods, visualization techniques, and pandas library functionalities..
 
 
 
