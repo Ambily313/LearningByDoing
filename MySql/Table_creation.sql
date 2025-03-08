@@ -17,3 +17,10 @@ id int,
 age int);
 
 
+CREATE TABLE employees (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50),
+    age INT,
+    department VARCHAR(50),
+    salary DECIMAL(10,2)
+);
