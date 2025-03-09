@@ -63,3 +63,7 @@ INSERT INTO employees (name, age, department, salary) VALUES
 ('Vera Jenkins', 31, 'Marketing', 47000.00),
 ('Walter Simpson', 38, 'IT', 71000.00),
 ('Xena Morgan', 33, 'HR', 49000.00);
+
+use rev1;
+insert into test_constraints (name,Id) 
+values('ami',1),('nia',2),('as',4);
