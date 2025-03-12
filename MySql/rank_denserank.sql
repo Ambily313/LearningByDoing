@@ -43,7 +43,7 @@ where  sales_rank=1
 -- 4. Identify the second-highest sales_amount across all departments.
 
 with sales_ranking as(
-select  *,dense_rank() over (partition by department order by sales_amount desc)  as sales_rank
+select  *,dense_rank() over ( order by sales_amount desc)  as sales_rank
 from sales)
 
 select * from sales_ranking 
