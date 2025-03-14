@@ -37,6 +37,16 @@ select * from test_constraints;
 use rev1
 select * from employees ;
 
+select * from employees 
+order by  department,age;
+
+select * from employees 
+where name like "a%" and age >20
+order by  department,age;
+
+select * from employees 
+where salary >40000 and age >30
+order by  department,age;
 
 select department, COUNT(DISTINCT id) AS employee_count 
 from employees 
@@ -50,3 +60,41 @@ FROM employees
 GROUP BY department
 HAVING COUNT(DISTINCT id) < 13
 ORDER BY department;
+
+select * from name_a 
+
+
+
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE name_a
+SET Name = 'Amy'
+WHERE id = 3;
+
+SET SQL_SAFE_UPDATES = 1;  -- Re-enable safe mode
+
+use employee;
+
+select count(emp_name) as Emp_count from employees
+group by department;
+
+
+select count(emp_name) as Emp_count,department from employees
+where  salary > 40000
+group by department
+
+select count(emp_name) as Emp_count,department from employees
+where  salary > 40000 and age between  20 and 30
+group by department;
+
+select count(emp_name) as Emp_count,department from employees
+where  salary > 40000 and age between  20 and 30
+group by department
+having emp_count >11;
+
+select * from employees 
+where exists (select emp_name from employees where salary>500000 )
+
+
+select * from employees 
+where exists (select emp_name from employees where salary < 500000 )
