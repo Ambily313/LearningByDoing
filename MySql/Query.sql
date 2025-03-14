@@ -98,3 +98,63 @@ where exists (select emp_name from employees where salary>500000 )
 
 select * from employees 
 where exists (select emp_name from employees where salary < 500000 )
+
+=====================================================================
+''' The MySQL CASE Statement
+The CASE statement goes through conditions and returns a value when the first condition is met (like an if-then-else statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the ELSE clause.
+
+If there is no ELSE part and no conditions are true, it returns NULL.
+
+CASE Syntax
+CASE
+    WHEN condition1 THEN result1
+    WHEN condition2 THEN result2
+    WHEN conditionN THEN resultN
+    ELSE result
+END;
+'''
+==============================================================================
+
+''' 
+In MySQL, IFNULL() and COALESCE() are both functions used to handle NULL values, but they have slight differences in functionality.
+
+1. IFNULL()
+IFNULL(expression, replacement_value)
+It checks if the first argument (expression) is NULL. If it is NULL, it returns
+ the second argument (replacement_value). Otherwise, it returns the first argument.
+ 
+ SELECT IFNULL(NULL, 'Default Value'); -- Returns 'Default Value'
+SELECT IFNULL(10, 'Default Value');   -- Returns 10
+
+
+2. COALESCE()
+COALESCE(expression1, expression2, ..., expressionN)
+It returns the first non-NULL value from the list of expressions. 
+If all expressions are NULL, it returns NULL.
+
+SELECT COALESCE(NULL, NULL, 'First Non-NULL', 'Second Non-NULL'); 
+-- Returns 'First Non-NULL'
+
+SELECT COALESCE(NULL, NULL, NULL); 
+-- Returns NULL
+
+Advantage: COALESCE() can take multiple arguments, making it more flexible than IFNULL().
+
+
+Key Differences
+
+Feature	        IFNULL()	                                          COALESCE()
+Arguments	Only 2 arguments	                                   Multiple arguments allowed
+Functionality	Checks if the first value is NULL, replaces it   	Returns the first non-NULL value from a list
+Flexibility	Less flexible	                                       More flexible
+
+When to Use Which?
+Use IFNULL() when you only need to check one value and provide a default.
+Use COALESCE() when you have multiple possible fallback values.
+
+
+'''
+=======================================================================
+
+
+
