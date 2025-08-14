@@ -111,4 +111,18 @@ INSERT INTO logins VALUES
 (8, 4, '2024-01-22'),
 (9, 5, '2024-03-02');
 
+ALTER TABLE sales ADD COLUMN sales_channel VARCHAR(10);
+
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE sales
+SET sales_channel = 'Online'
+WHERE region IN ('North', 'East');
+
+UPDATE sales
+SET sales_channel = 'Offline'
+WHERE region IN ('South', 'West');
+
+SET SQL_SAFE_UPDATES = 1;
+
 
